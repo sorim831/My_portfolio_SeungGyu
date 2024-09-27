@@ -1,0 +1,21 @@
+.Seoul-population {
+  width: 20vw;
+  background-color: #ffd400;
+}
+
+.capital-container {
+  width: 60vw;
+  height: 80vh;
+  overflow: auto;
+}
+
+.province-container {
+  width: 40vw;
+  height: 80vh;
+  overflow: auto;
+  background-color: #ffd400;
+}
+
+.grgp {
+  width: 60vw;
+}

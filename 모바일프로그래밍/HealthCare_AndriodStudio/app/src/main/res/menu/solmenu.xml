@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sol1"
+        android:title="BMI 해결책"/>
+    <item
+        android:id="@+id/sol2"
+        android:title="체온 해결책"/>
+    <item
+        android:id="@+id/sol3"
+        android:title="혈압 해결책"/>
+    <item
+        android:id="@+id/sol4"
+        android:title="맥박 해결책"/>
+</menu>

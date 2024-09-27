@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원님에 대한 결과입니다." />
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="측정결과" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="측정결과" />
+
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="측정결과" />
+
+    <TextView
+        android:id="@+id/result4"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="측정결과" />
+
+    <Button
+        android:id="@+id/nextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인" />
+
+</LinearLayout>

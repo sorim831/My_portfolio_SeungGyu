@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/helptext1"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_weight="1"
+        android:text="이 프로그램은 사용자의 건강 정보를 입력받고 이 정보를 통해 사용자의 건강 상태를 분석하고 결과 제공해줍니다.\n 이때, 기준에서 일정 수치보다 높거나 낮은 건강정보에서 문제점을 분석하고 맞춤형 해결책(식단,영양제,운동 등) 종합적 제시해줍니다."
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/helptext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="시작하기 버튼을 누르면, 건강 정보를 입력하는 화면이 나옵니다. 빈칸에 회원님이 측정하신 건강정보를 입력해주시고, 결과를 확인해주세요!"
+        android:textSize="25dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/backbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="4dp"
+            android:text="돌아가기"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
