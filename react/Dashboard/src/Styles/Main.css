@@ -13,7 +13,8 @@
   width: 40vw;
   height: 80vh;
   overflow: auto;
-  background-color: #ffd400;
+  /*background-color: #ffd400;*/
+  background-color: white;
 }
 
 .grgp {
