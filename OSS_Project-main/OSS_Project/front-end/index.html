@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>송승규 프로필</title>
+    <script
+      src="https://kit.fontawesome.com/e7e3c6f6db.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    >
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/guestbook.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="pageName">
+        <h1>광운의 미래 송승규</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>2020204066</li>
+          <li>송승규</li>
+        </ul>
+      </nav>
+      <div class="viewBox">
+        <div class="slideBox">
+          <div class="leftBox">
+            <div class="slideItem">Front-End</div>
+            <div class="slideItem">Back-End</div>
+            <div class="slideItem">Data Science</div>
+          </div>
+          <div class="rightBox">
+            <div class="slideItem">Front-End</div>
+            <div class="slideItem">Back-End</div>
+            <div class="slideItem">Data Science</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="profile">
+        <article class="profile_picture">
+          <img src="media/profile_picture.jpg" alt="송승규 사진" />
+          <div class="introduction">
+            <p>
+              저는 광운대학교 인공지능융합대학 정보융합학부 3학년 재학중입니다.
+              프론트엔드, 백엔드, 데이터분석 등 다양한 직무에 대해 관심을 갖고
+              있으며 진로를 결정 중에 있습니다. 현재, Python, Javascript와 같은
+              다양한 프로그래밍 언어 지식을 습득하고 있습니다. 이러한 지식을
+              바탕으로 현재 데이터 분석, 프론트엔드, 백엔드를 활용한
+              프로젝트들을 진행하는 있습니다. 이번 학기 이후 동아리
+              <strong>CHIC</strong>에 가입하여 백엔드 직무에 대해 더 지식을
+              넓히고 방학 때 이와 관련된 토이 프로젝트를 진행하는 것을 계획하고
+              있습니다.
+            </p>
+          </div>
+        </article>
+        <div class="info">
+          <h1>송승규</h1>
+          <h2>인공지능융합대학 정보융합학부</h2>
+          <ul class="contact">
+            <li>
+              <i class="fas fas fas fas fa-phone-volume"></i>
+              <span>010-6285-7031</span>
+            </li>
+            <li>
+              <i class="fas far fa-envelope"></i>
+              <span>sorim831@naver.com</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="guestbook">
+        <form id="guestbook_form">
+          <h2>방명록</h2>
+          <input type="text" id="name" placeholder="이름" required />
+          <textarea id="message" placeholder="메시지" required></textarea>
+          <button type="submit">방명록 남기기</button>
+        </form>
+        <div id="messages"></div>
+      </section>
+    </main>
+    <footer><p>송승규ⓒKWANGWOON UNIVERSITY.</p></footer>
+  </body>
+  <!--  <audio src="media/봄의소리왈츠.mp3" autoplay></audio>   -->
+</html>
