@@ -1,0 +1,24 @@
+/* 점수판 스타일 */
+.score-div {
+  display: flex; /*가로 정렬*/
+  color: #777777;
+  font-size: 18px;
+  height: 30px;
+}
+
+/* 선생님 점수 입력 칸 스타일 */
+.score-input-div {
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.teacher-score {
+  font-weight: 600;
+  font-size: 40px;
+  border: none;
+  width: 120px;
+}

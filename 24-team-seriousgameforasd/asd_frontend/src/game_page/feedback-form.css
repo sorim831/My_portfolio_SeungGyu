@@ -1,0 +1,39 @@
+.feedback-p {
+  margin-left: 15px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.feedback-textarea {
+  width: 300px;
+  height: 150px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+  background-color: #fafafa;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.game-feedback-button {
+  padding: 10px 15px;
+  background-color: #807e7e;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-right: 10px;
+  float: right;
+}
+
+.emotion {
+  font-size: 18px;
+  margin-right: 10px;
+}
